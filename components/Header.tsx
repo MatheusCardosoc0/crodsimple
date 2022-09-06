@@ -1,4 +1,4 @@
-import { AiFillGithub, AiFillLinkedin, AiOutlineUser } from 'react-icons/ai'
+import { GithubLogo, LinkedinLogo, User } from 'phosphor-react'
 
 export function Header(){
 
@@ -17,16 +17,16 @@ export function Header(){
       </div>
       <div className="flex text-yellow-500 gap-4 md:gap-8 text-3xl justify-center">
         <span className={span} >
-        <a href="https://www.linkedin.com/in/matheus-cardoso-026488244/" target={"_blank"} rel="noreferrer"><AiFillLinkedin></AiFillLinkedin></a>
+        <a href="https://www.linkedin.com/in/matheus-cardoso-026488244/" target={"_blank"} rel="noreferrer"><LinkedinLogo></LinkedinLogo></a>
         <p className={legenda}>Meu linkedin</p>
         </span>
         <span className={span}>
         <a href="https://github.com/MatheusCardosoc0"
-          target={"_blank"} rel="noreferrer"><AiFillGithub></AiFillGithub></a>
+          target={"_blank"} rel="noreferrer"><GithubLogo></GithubLogo></a>
             <p className={legenda}>Meu Github</p>
         </span>
         <span className={span}>
-        <a href="https://matheuscardosoc-portifolio.netlify.app" target={"_blank"} rel="noreferrer"><AiOutlineUser></AiOutlineUser></a>
+        <a href="https://matheuscardosoc-portifolio.netlify.app" target={"_blank"} rel="noreferrer"><User></User></a>
         <p className={legenda}>Meu site portifolio</p>
         </span>
       </div>
