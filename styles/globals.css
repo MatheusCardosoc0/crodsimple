@@ -1,26 +1,19 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-a {
-  color: inherit;
-  text-decoration: none;
+body{
+  @apply bg-gray-400
 }
-
-* {
-  box-sizing: border-box;
+input{
+  @apply rounded-lg px-2
 }
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+header div:nth-child(2) span:nth-child(1):hover p{
+  @apply flex
+}
+header div:nth-child(2) span:nth-child(2):hover p{
+  @apply flex
+}
+header div:nth-child(2) span:nth-child(3):hover p{
+  @apply flex
 }
