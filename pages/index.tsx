@@ -5,7 +5,7 @@ import { type } from 'os'
 import { FormEvent, useEffect, useState } from 'react'
 import Button from '../components/Button'
 import Input from '../components/Input'
-import { database } from '../.env.local/firebase'
+import { database } from '../local/firebase'
 import styles from '../styles/Home.module.css'
 import { Header } from '../components/Header'
 
