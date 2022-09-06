@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "autoprefixer": "^10.4.8",
     "firebase": "^8.10.0",
     "next": "12.2.5",
     "phosphor-react": "^1.4.1",
